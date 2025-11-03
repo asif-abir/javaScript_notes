@@ -7,6 +7,7 @@ console.log(name); // Abir
 var name = "Rahim"; // আবার declare করা গেল
 console.log(name); // Rahim
 
+---
 
 ##
 var হলো function scoped
