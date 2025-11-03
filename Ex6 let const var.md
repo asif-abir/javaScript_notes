@@ -7,6 +7,8 @@ console.log(name); // Abir
 var name = "Rahim"; // আবার declare করা গেল
 console.log(name); // Rahim
 
+```
+
 ---
 
 ##🧠 ব্যাখ্যা:
