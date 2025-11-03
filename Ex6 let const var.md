@@ -21,3 +21,16 @@ var হলো function scoped
 মান (value) পরিবর্তন করা যায় ✅
 
 Hoisting হয় (undefined সহ)
+---
+## ❌ সমস্যা:
+
+var দিয়ে declare করলে ভ্যারিয়েবল বাইরে থেকে accidently change হয়ে যেতে পারে।
+---
+``` js
+if (true) {
+  var city = "Dhaka";
+}
+console.log(city); // Dhaka — বাইরে থেকেও দেখা যায় ❌
+```
+এটাই scope leakage problem।
+
