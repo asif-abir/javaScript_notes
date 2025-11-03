@@ -7,7 +7,8 @@ console.log(name); // Abir
 var name = "Rahim"; // আবার declare করা গেল
 console.log(name); // Rahim
 
-/***
+
+##
 var হলো function scoped
 
 একই নামে বারবার declare করা যায় ✅
