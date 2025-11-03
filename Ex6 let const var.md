@@ -24,7 +24,7 @@ Hoisting হয় (undefined সহ)
 ---
 ## ❌ সমস্যা:
 
-var দিয়ে declare করলে ভ্যারিয়েবল বাইরে থেকে accidently change হয়ে যেতে পারে।
+### var দিয়ে declare করলে ভ্যারিয়েবল বাইরে থেকে accidently change হয়ে যেতে পারে।
 ---
 ``` js
 if (true) {
